@@ -13,7 +13,14 @@ let person = {
 }
 
 // Dot notation to access the property
-console.log(person.name);
+console.log(person.age);
 
 // Bracket notation to access the property
 console.log(person['name']);
+
+
+//math object
+
+let marks =[85,98,57,33]
+let result = Math.max(...marks);
+console.log("maximum marks:" + result);
